@@ -16,9 +16,6 @@ export default class App extends Component {
     newArr: []
   }
 
-  check = () => {
-
-  }
 
   restart = () => {
     this.setState({
@@ -61,10 +58,10 @@ export default class App extends Component {
       newArr.push(id)
       // console.log(this)
 
-      let scoreArr = this.state.score.scoreArr.map(e => e)
-      scoreArr.push(this.score)
+      // let scoreArr = this.state.score.scoreArr.map(e => e)
+      // scoreArr.push(this.score)
       // this.setState.scores({scores: [this.scores.push(this.state.score)]}) 
-      console.log(scoreArr)
+      // console.log(scoreArr)
 
 
       this.setState({
